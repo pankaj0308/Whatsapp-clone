@@ -1,0 +1,91 @@
+.sidebarChat-container{
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat-container:hover{
+  background: #f4f4f4;
+
+}
+.sidebarChat-container-dark{
+  border-bottom: 1px solid #202c33;
+}
+
+.sidebarChat-container-dark:hover{
+  background: #202c33;
+
+}
+
+.sidebarChat-info{
+  margin-left: 20px;
+}
+
+.sidebarChat-info >h2 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+.sidebarChat-info >p{
+  font-size: 14px;
+}
+.sidebarChat-info-dark >p{
+  color: lightgray;
+}
+
+.sidebarChat-container >h3{
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.sidebarChat-container-dark >h3{
+  color: #fff;
+}
+
+.sidebarChat-container .MuiAvatar-circular{
+  border:1px solid #333;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+}
+
+.links-dark{
+  text-decoration: none;
+  color: #fff;
+}
+
+.modal-input{
+  width: 100%;
+  height: 30px;
+}
+
+.modal-button{
+  margin: 10px;
+  padding: 10px 20px;
+  align-self: center;
+  border: none;
+  color: white;
+  background-color: rgb(30, 177, 30);
+}
+
+.modal-button:hover{
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+#modal-modal-title{
+  padding: 20px;
+  text-align: center;
+}
+#modal-modal-description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

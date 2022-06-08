@@ -1,0 +1,96 @@
+.sidebar{
+  display: flex;
+  flex-direction:column ;
+  flex: 0.35;
+}
+
+.sidebar-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px lightgray solid;
+}
+
+.sidebar-header-dark{
+  border-right: 1px #2a3a44 solid;
+}
+
+.sidebar-headerRight{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+.sidebar-search{
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 39px;
+  padding: 10px;
+}
+
+.sidebar-search-dark{
+  background-color: #111b21;
+  border-bottom:1px solid #333;
+}
+
+
+.sidebar-searchContainer{
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sidebar-searchContainer input{
+  outline: none;
+}
+ 
+
+.sidebar-searchContainer-dark,.sidebar-searchContainer-dark input{
+  background-color: #202c33;
+  outline: none;
+  caret-color: gray;
+}
+
+.sidebar-searchContainer > .MuiSvgIcon-root{
+  color: gray;
+  margin-left: 10px;
+}
+
+
+.sidebar-search input{
+  width: 100%;
+  border: none;
+  margin-left: 10px;
+}
+
+.sidebar-chat{
+  flex: 1;
+  background-color: white;
+  overflow-y: scroll;
+
+}
+
+.sidebar-chat-dark{
+  background-color: #111b21;
+}
+
+
+/* *******Scroll works erroneously in IE and Mozilla ******* */
+.sidebar-chat::-webkit-scrollbar {
+  width: 10px;
+}
+
+.sidebar-chat::-webkit-scrollbar-thumb {
+  background: #f4f4f4;
+}
+
+.sidebar-chat::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* ************************************************ */
+
